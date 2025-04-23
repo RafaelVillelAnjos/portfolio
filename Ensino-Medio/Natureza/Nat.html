@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natureza</title>
+    <link rel="stylesheet" href="Nat.css">
+    <script src="Nat.js" defer></script>
+</head>
+<body>
+    <!-- 1º Trimestre -->
+    <div class="trimestre1">
+        <h1 class="h1Trimestre"><a>1º</a> Trimestre</h1>
+        
+        <!-- Primeira Atividade Primeiro Trimestre -->
+        <div class="atividade" id="atv1">
+            <h1 class="h1Atv">Tipos de Poluição</h1>
+            <iframe src="https://www.canva.com/design/DAGlYyoq7_g/GIu-9oyuTHgiGebq5tzE0g/view?embed" class="tiposPoluicao"></iframe>
+
+            <div class="btnAtv1-1">
+                <button class="btnAtividade" onclick="VerAtv1()">Vizualizar</button>
+                <button id="abrirModal" onclick="descAtv1_1()" class="btnAtividade">Descrição</button>
+            </div>
+
+            <!-- Modal descrição da primeira atividade -->
+            <div id="fade" onclick="fecharModal()"></div>
+            <div id="modalAtv1-1" onclick="fecharModal()">
+                <div class="tituloModal">
+                    <h1 class="h1Modal">Descrição da atividade</h1>
+                </div>
+
+                <div class="corpoModal">
+                    <p>&nbsp; Depois de uma aula explicativa sobre os diferentes tipos de poluição existentes, eu e meu grupo pesquisamos sobre a utilização de produtos químicos em plantações e montamos uma apresentação sobre o assunto. Após a pesquisa, nós passamos a compreender de maneira mais clara os malefícios que esses produtos podem podem causar quando ingeridos, além dos impactos ao meio ambiente.</p>
+                    <p class="hab">Habilidades: H1, H2 e H4 </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda atividade do Primeiro Trimestre -->
+        <div class="atividade" id="atv2">
+            <h1 class="h1Atv">Mapa Mental sobre <br> Eletrostática </h1>
+
+            <img src="../../Imagens/MapaMental.jpg" class="mapaMental">
+
+            <div class="btnAtv2-1">
+                <button id="abrirModal" onclick="descAtv2_1()" class="btnAtividade">Descrição</button>
+            </div>
+
+            <div id="modalAtv2-1" onclick="fecharModal()">
+                <div class="tituloModal">
+                    <h1 class="h1Modal">Descrição da atividade</h1>
+                </div>
+
+                <div class="corpoModal">
+                    <p>&nbsp; Nessa atividade eu precisei criar um mapa mental sobre eletrostática, nele está explicado como calcular a intensidade de uma corrente elétrica, a força elétrica entre corpos, a força de um campo elétrico, o que são cargas elétricas as diferentes formas de eletrizar um corpo.</p>
+                    <p class="hab">Habilidades: H29, H30 e H31</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Terceira Atividade do Terceiro trimestre -->
+        <div class="atividade" id="atv3">
+            <h1 class="h1Atv"> Relatório sobre Estequiometria <br> e a Indústria Brasileira</h1>
+
+            <iframe src="https://www.canva.com/design/DAGiR7ISGZ0/68bju4EV0pyf8z4TOpz4zQ/view?embed" class="canvaEsteq"></iframe>
+
+            <div class="btnAtv2-1">
+                <button class="btnAtividade" onclick="VerAtv3()">Vizualizar</button>
+                <button id="abrirModal" onclick="descAtv3_1()" class="btnAtividade">Descrição</button>
+            </div>
+
+            <div id="modalAtv3-1" onclick="fecharModal()">
+                <div class="tituloModal">
+                    <h1 class="h1Modal">Descrição da atividade</h1>
+                </div>
+
+                <div class="corpoModal">
+                    <p>&nbsp; Após algumas aulas expositivas sobre o que é estequiometria e como realizar cálculos estequiométricos, eu e meu grupo pesquisamos como esse assunto é aplicado na indústria metalúrgica brasileira.
+                    </p>
+                    <p class="hab">Habilidades: H7, H9 e H10</p>
+                </div>
+            </div>
+        </div>
+
+                <!-- Terceira Atividade do Terceiro trimestre -->
+        <div class="atividade" id="atv4">
+            <h1 class="h1Atv">Meme Evolucionista</h1>
+        
+            <img src="../../Imagens/MemeEvolução.png" class="memeEvol">
+    
+            <div class="btnAtv2-1">
+                <button id="abrirModal" onclick="descAtv4_1()" class="btnAtividade">Descrição</button>
+            </div>
+        
+            <div id="modalAtv4-1" onclick="fecharModal()">
+                <div class="tituloModal">
+                    <h1 class="h1Modal">Descrição da atividade</h1>
+                </div>
+        
+                <div class="corpoModal">
+                    <p>&nbsp; Nessa atividade, eu criei um meme utilizando como base teorias evolutivas. Na imagem em questão, algumas etapas da evolução da espécie humana estão enfileiradas, representando seu avanço ao longo do tempo. Porém, ao se deparar com o humano atual, representado pelo meu grande amigo Lucas Russeff, o Homo sapiens exclama para as etapas anteriores recuarem, renegando o estado atual da raça humana.</p>
+                    <p class="hab">Habilidades: H15 e H18</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="botao">
+        <button onclick="IrParaEm()" class="btnNav" id="btnEm">Voltar</button>
+    </div>
+</body>
+</html>
