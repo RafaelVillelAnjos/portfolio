@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humanas</title>
+    <link rel="stylesheet" href="HM.css">
+    <script src="HM.js" defer></script>
+</head>
+<body>
+    <!-- 1º Trimestre -->
+    <div class="trimestre1">
+        <h1 class="h1Trimestre"><a>1º</a> Trimestre</h1>
+        
+        <!-- Primeira Atividade Primeiro Trimestre -->
+        <div class="atividade" id="atv1">
+            <h1 class="h1Atv">Linha do tempo do Século <br> da Humilhação Chinesa</h1>
+            <img src="../../Imagens/LinhaTempo.png" class="linhaTempo">
+
+            <div class="btnAtv1-1">
+                <button class="btnAtividade" onclick="VerAtv1()">Vizualizar</button>
+                <button id="abrirModal" onclick="descAtv1_1()" class="btnAtividade">Descrição</button>
+            </div>
+
+            <!-- Modal descrição da primeira atividade -->
+            <div id="fade" onclick="fecharModal()"></div>
+            <div id="modalAtv1-1" onclick="fecharModal()">
+                <div class="tituloModal">
+                    <h1 class="h1Modal">Descrição da atividade</h1>
+                </div>
+
+                <div class="corpoModal">
+                    <p>&nbsp; Nessa atividade, meu grupo e eu criamos, na plataforma Padlet, uma linha do tempo com os principais eventos do período histórico conhecido como “Século da Humilhação Chinesa”. A partir desse trabalho, conseguimos compreender melhor a situação geopolítica atual da China e ter uma noção de como um cidadão chinês enxerga o Ocidente</p>
+                    <p class="hab">Habilidades: H10, H36, H39 e H40 </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda atividade do Primeiro Trimestre -->
+        <div class="atividade" id="atv2">
+            <h1 class="h1Atv">Conflitos Geopolíticos</h1>
+
+            <iframe src="https://www.canva.com/design/DAGlU3lMtac/8TcCBT2WxJqc6voN5Ae4tw/watch?embed" class="canvaTaiwan"></iframe>
+
+            <div class="btnAtv2-1">
+                <button class="btnAtividade" onclick="VerAtv2()">Vizualizar</button>
+                <button id="abrirModal" onclick="descAtv2_1()" class="btnAtividade">Descrição</button>
+            </div>
+
+            <div id="modalAtv2-1" onclick="fecharModal()">
+                <div class="tituloModal">
+                    <h1 class="h1Modal">Descrição da atividade</h1>
+                </div>
+
+                <div class="corpoModal">
+                    <p> &nbsp; Neste trabalho, meu grupo e eu realizamos uma pesquisa e montamos uma apresentação sobre os conflitos geopolíticos que envolvem a nação de Taiwan, abordando sua participação indireta no conflito Israelense-Palestino e suas tensões com a China. Com isso, conseguimos compreender com mais clareza a dinâmica do mundo multipolar atual.</p>
+                    <p class="hab">Habilidades: H10, H36, H39 e H40 </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="botao">
+        <button onclick="IrParaEm()" class="btnNav" id="btnEm">Voltar</button>
+    </div>
+</body>
+</html>

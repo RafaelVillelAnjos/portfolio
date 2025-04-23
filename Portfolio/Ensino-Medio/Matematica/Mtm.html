@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática</title>
+    <link rel="stylesheet" href="Mtm.css">
+    <script src="Mtm.js" defer></script>
+</head>
+<body>
+    <!-- 1º Trimestre -->
+    <div class="trimestre1">
+        <h1 class="h1Trimestre"><a>1º</a> Trimestre</h1>
+        
+        <!-- Primeira Atividade Primeiro Trimestre -->
+        <div class="atividade" id="atv1">
+            <h1 class="h1Atv">Filme "Quebrando a Banca"</h1>
+
+                <iframe src="https://docs.google.com/document/d/e/2PACX-1vT9X8kbEfXfzYS-6DpVFjHg1froWId_WEYy5VK67no0l6v4r_DgNh4RA5QGN4a4H2gzTSml-1zkxGYQ/pub?embedded=true" class="docBanca"></iframe>
+
+            <div class="btnAtv1-1">
+                <button class="btnAtividade" onclick="IrParaAtv1()">Vizualizar</button>
+                <button id="abrirModal" onclick="descAtv1_1()" class="btnAtividade">Descrição</button>
+            </div>
+
+            <!-- Modal descrição da primeira atividade -->
+            <div id="fade" onclick="fecharModal()"></div>
+            <div id="modalAtv1-1" onclick="fecharModal()">
+                <div class="tituloModal">
+                    <h1 class="h1Modal">Descrição da atividade</h1>
+                </div>
+
+                <div class="corpoModal">
+                    <p>&nbsp; Nessa atividade, precisei responder a algumas perguntas sobre o filme Quebrando a Banca e criar uma ideia de roteiro para um filme relacionado a algum tema da matemática. Minha ideia foi a de um professor de matemática que, ao ir ao cabeleireiro, descobre que seu redemoinho segue perfeitamente a espiral de Fibonacci. A partir disso, ele começa a pesquisar e analisar seusmarredores, percebendo que muitas coisas também seguem esse padrão, incluindo as galáxias! No fim da trama, o personagem principal transcende os conhecimentos mundanos ao descobrir a verdade sobre o universo.</p>
+                    <p class="hab">Habilidades: H31 e H32</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda atividade do Primeiro Trimestre -->
+        <div class="atividade" id="atv2">
+            <h1 class="h1Atv">Criando a Banca</h1>
+
+            <iframe src="https://www.canva.com/design/DAGlCk3PBW4/Cyhpj1rDVLvW05e7etfLXw/view?embed" class="canvaBanca"></iframe>
+
+            <div class="btnAtv2-1">
+                <button class="btnAtividade" onclick="IrParaAtv2()">Vizualizar</button>
+                <button id="abrirModal" onclick="descAtv2_1()" class="btnAtividade">Descrição</button>
+            </div>
+
+            <div id="modalAtv2-1" onclick="fecharModal()">
+                <div class="tituloModal">
+                    <h1 class="h1Modal">Descrição da atividade</h1>
+                </div>
+
+                <div class="corpoModal">
+                    <p>&nbsp;  Nessa atividade, meu grupo e eu criamos um jogo de cartas que envolve elementos matemáticos estudados em aula, como probabilidades, o princípio fundamental da contagem e a análise combinatória. Resumidamente, para jogar são necessários dois jogadores, e vence aquele que conseguir formar três grupos de cartas cuja soma dos valores esteja entre 21 e 26. Os grupos devem ser formados em ordem crescente ou decrescente, de acordo com a vontade do jogador. O jogo também possui cartas especiais, que podem ajudar a alcançar a vitória ou atrapalhar o oponente.</p>
+                    <p class="hab">Habilidades: H30 e H31</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="botao">
+        <button onclick="IrParaEm()" class="btnNav" id="btnEm">Voltar</button>
+    </div>
+</body>
+</html>
