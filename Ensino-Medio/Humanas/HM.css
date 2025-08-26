@@ -105,12 +105,26 @@ a{
     border-radius: 10px;
 }
 
+.jornalhistorico{
+    width: 30%;
+    height: 700px;
+    border: solid 8px rgb(85, 85, 85);
+    border-radius: 10px;
+}
+
+.filipinas{
+    width: 30%;
+    height: 700px;
+    border: solid 8px rgb(85, 85, 85);
+    border-radius: 10px;
+}
+
 /* Modal */
-#modalAtv1-1, #modalAtv2-1, #fade{
+#modalAtv1-1, #modalAtv2-1, #modalAtv1-2, #modalAtv2-2, #modalAtv3-2, #fade{
     display: none;  
 }
 
-#modalAtv1-1, #modalAtv2-1{
+#modalAtv1-1, #modalAtv2-1, #modalAtv1-2, #modalAtv2-2, #modalAtv3-2{
     border: #f2cb05 4px solid;
     position: fixed;
     z-index: 10;

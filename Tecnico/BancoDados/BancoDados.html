@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BancoDados.css">
+    <script src="BancoDados.js" defer></script>
+    <title>Banco de Dados</title>
+</head>
+<body>
+    <div class="trimestre1">
+        <h1 class="h1Trimestre"><a>2º</a> Trimestre</h1>
+        
+        <!-- Primeira Atividade Primeiro Trimestre -->
+        <div class="atividade" id="atv1">
+            <h1 class="h1Atv">Lista de Exercícios sobre Modelagem Conceitual</h1>
+
+            <img src="../../Imagens/modelo-conceitual.png" class="imgAtv1">
+
+            <div class="btnAtv1-1">
+                <button class="btnAtividade" onclick="IrParaAtv1()">Visualizar</button>
+                <button id="abrirModal" onclick="descAtv1_1()" class="btnAtividade">Descrição</button>
+            </div>
+
+            <!-- Modal descrição da primeira atividade -->
+            <div id="fade" onclick="fecharModal()"></div>
+            <div id="modalAtv1-1" onclick="fecharModal()">
+                <div class="tituloModal">
+                    <h1 class="h1Modal">Descrição da atividade</h1>
+                </div>
+
+                <div class="corpoModal">
+                    <p>&nbsp; Uma lista com três exercícios sobre modelagem conceitual de banco de dados. Cada um deles, em seu enucniado, me dava um contexto de uma situação e, a partir disso, eu precisava criar um modelo de banco de dados, na plataforma BrModelo, que resolvesse essa situação.
+                    </p>
+                    <p class="hab">Habilidades: H1, H2, H3 e H4</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="botao">
+        <button onclick="IrParaEm()" class="btnNav" id="btnEm">Voltar</button>
+    </div>
+</body>
+</html>

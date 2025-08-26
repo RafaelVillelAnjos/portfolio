@@ -47,6 +47,12 @@ img{
 .trimestre1{
     text-align: center;
     justify-content: center;
+    margin-bottom: 150px;
+}
+
+.trimestre2{
+    text-align: center;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
@@ -107,12 +113,16 @@ a{
     border-radius: 10px;
 }
 
+.figmaTempfy{
+    width: 55%;
+}
+
 /* Modal */
-#modalAtv1-1, #modalAtv2-1, #fade{
+#modalAtv1-1, #modalAtv2-1, #modalAtv1-2,#fade{
     display: none;  
 }
 
-#modalAtv1-1, #modalAtv2-1{
+#modalAtv1-1, #modalAtv2-1, #modalAtv1-2{
     border: #f2cb05 4px solid;
     position: fixed;
     z-index: 10;

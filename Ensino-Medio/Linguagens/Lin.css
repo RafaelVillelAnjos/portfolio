@@ -89,7 +89,20 @@ a{
 
 .capaRevista{
     width: 40%;
-    height: 928px;
+    height: 950px;
+    border: solid 8px rgb(85, 85, 85);
+    border-radius: 10px;
+}
+
+.notasRed{
+    display: flex;
+}
+
+.redOnline{
+    width: 20%;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
     border: solid 8px rgb(85, 85, 85);
     border-radius: 10px;
 }
@@ -99,6 +112,13 @@ a{
 }
 
 .notaRedacao{
+    width: 50%;
+    height: 360px;
+    border: solid 8px rgb(85, 85, 85);
+    border-radius: 10px;
+}
+
+.tool{
     width: 50%;
     height: 360px;
     border: solid 8px rgb(85, 85, 85);
@@ -128,11 +148,11 @@ a{
 }
 
 /* Modal */
-#modalAtv1-1, #modalAtv2-1, #modalAtv3-1, #modalAtv4-1, #modalAtv5-1, #fade{
+#modalAtv1-1, #modalAtv2-1, #modalAtv3-1, #modalAtv4-1, #modalAtv5-1, #modalAtv1-2, #modalAtv2-2, #modalAtv3-2, #fade{
     display: none;  
 }
 
-#modalAtv1-1, #modalAtv2-1, #modalAtv3-1, #modalAtv4-1, #modalAtv5-1{
+#modalAtv1-1, #modalAtv2-1, #modalAtv3-1, #modalAtv4-1, #modalAtv5-1, #modalAtv1-2, #modalAtv2-2, #modalAtv3-2{
     border: #f2cb05 4px solid;
     position: fixed;
     z-index: 10;

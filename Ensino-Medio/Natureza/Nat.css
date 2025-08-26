@@ -105,7 +105,7 @@ a{
     border-radius: 10px;
 }
 
-.canvaEsteq{
+.canvaEsteq, .canvaVacinas{
     width: 70%;
     height: 526px;
     border: solid 8px rgb(85, 85, 85);
@@ -119,12 +119,25 @@ a{
     border-radius: 10px;
 }
 
+.glossarioEL{
+    height: 480px;
+    width: 19.99%;
+    border: solid 8px rgb(85, 85, 85);
+    border-radius: 10px;
+}
+
+.capaCampo{
+    width: 50%;
+    border: solid 8px rgb(85, 85, 85);
+    border-radius: 10px;
+}
+
 /* Modal */
-#modalAtv1-1, #modalAtv2-1, #modalAtv3-1, #modalAtv4-1, #fade{
+#modalAtv1-1, #modalAtv2-1, #modalAtv3-1, #modalAtv4-1, #modalAtv1-2, #modalAtv2-2, #modalAtv3-2, #fade{
     display: none;  
 }
 
-#modalAtv1-1, #modalAtv2-1, #modalAtv3-1, #modalAtv4-1{
+#modalAtv1-1, #modalAtv2-1, #modalAtv3-1, #modalAtv4-1, #modalAtv1-2, #modalAtv2-2, #modalAtv3-2{
     border: #f2cb05 4px solid;
     position: fixed;
     z-index: 10;
